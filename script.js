@@ -45,17 +45,17 @@ function showWeatherReport(weather) {
     date.innerText = dateManage(todatDate);
 
     if (weatherType.textContent == 'Clear') {
-        document.body.style.backgroundImage = "url('images/a.jpg')";
+        document.body.style.backgroundImage = "url('a.jpg')";
     } else if (weatherType.textContent == 'Clouds') {
-        document.body.style.backgroundImage = "url('images/cloudy.jpg')";
+        document.body.style.backgroundImage = "url('cloudy.jpg')";
     } else if (weatherType.textContent == 'Rain') {
-        document.body.style.backgroundImage = "url('images/rainy.jpg')";
+        document.body.style.backgroundImage = "url('rainy.jpg')";
     } else if (weatherType.textContent == 'Snow') {
-        document.body.style.backgroundImage = "url('images/snowy.jpg')";
+        document.body.style.backgroundImage = "url('snowy.jpg')";
     } else if (weatherType.textContent == 'Thunderstrom') {
-        document.body.style.backgroundImage = "url('images/thunderstrom.jpg')";
+        document.body.style.backgroundImage = "url('thunderstrom.jpg')";
     } else if (weatherType.textContent == 'Haze') {
-        document.body.style.backgroundImage = "url('images/cloudy.jpg')";
+        document.body.style.backgroundImage = "url('cloudy.jpg')";
     }
 }
 
